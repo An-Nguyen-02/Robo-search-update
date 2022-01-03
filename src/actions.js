@@ -3,7 +3,7 @@ import {
 	REQUEST_ROBOTS_PENDING,
 	REQUEST_ROBOTS_SUCCESS,
 	REQUEST_ROBOTS_FAIL
-} from './constants.js'
+} from './constants.js';
 
 export const setSearchfield = (text) => ({
 	type: CHANGE_SEARCH_FIELD,

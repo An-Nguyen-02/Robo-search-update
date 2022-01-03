@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card list snapshot 1`] = `
+<Fragment>
+  <Card
+    email="hello@gmail.com"
+    id={1}
+    key="1"
+    name="hello"
+  />
+</Fragment>
+`;

@@ -16,7 +16,7 @@ class HomePage extends React.Component {
 								robot.name.toLowerCase().includes(this.props.searchfield.toLowerCase()))
 	}
 	render(){
-		const {OnSearchChange, robots, isPending} = this.props;
+		const {OnSearchChange, isPending} = this.props;
 		return isPending ?
 			<h1>Loading</h1>:
 			(
@@ -25,7 +25,7 @@ class HomePage extends React.Component {
 				<Searchbox searchChange={OnSearchChange}/>
 				<Scroll>
 					<ErrorBoundary>
-	      				<Cardlist robots={this.filteredrobots}/>
+	      				<Cardlist robots={this.filteredrobots()}/>
 	      			</ErrorBoundary>
 	      		</Scroll>
 	  		</div>

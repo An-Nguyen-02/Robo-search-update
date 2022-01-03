@@ -9,23 +9,7 @@ exports[`isPending:false render HomePage component 1`] = `
   <Scroll>
     <ErrorBoundary>
       <Cardlist
-        robots={[Function]}
-      />
-    </ErrorBoundary>
-  </Scroll>
-</div>
-`;
-
-exports[`render HomePage component 1`] = `
-<div
-  className="tc"
->
-  <Header />
-  <Searchbox />
-  <Scroll>
-    <ErrorBoundary>
-      <Cardlist
-        robots={[Function]}
+        robots={Array []}
       />
     </ErrorBoundary>
   </Scroll>
